@@ -2,7 +2,7 @@
 
 A question every DBA is asked, this repo will hold scripts for basic queries designed to find bottlenecks in Azure SQL and Managed instance databases. 
 
-A good DBA should be monitoring loads regularly to notice when wait times change or go up. 
+You should be monitoring loads regularly to notice when wait times change or go up. 
 
 Typically we look at the following 
 - CPU load on the server 
