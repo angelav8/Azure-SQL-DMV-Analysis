@@ -15,8 +15,6 @@ Analyzing the performance and health of an Azure SQL database is crucial for mai
 
 These DMVs are fundamental for understanding query performance and identifying bottlenecks in your T-SQL code.
 
-\<hr\>
-
 #### **`sys.dm_exec_query_stats`**
 
 This DMV provides aggregate performance statistics for cached query plans. It's invaluable for identifying high-resource queries over time.
