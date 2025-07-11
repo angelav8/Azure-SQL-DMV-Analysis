@@ -46,9 +46,7 @@ This DMV shows information about each request currently executing in the Azure S
 | **`total_elapsed_time`** | The total time elapsed, in milliseconds, since the request began. |
 | **`cpu_time`** | The CPU time, in milliseconds, used by the request. |
 
-\<hr\>
-
-### Index-Related DMVs
+## Index-Related DMVs
 
 Proper indexing is critical for query performance. These DMVs help you understand how your indexes are being used and identify opportunities for improvement.
 
@@ -74,8 +72,6 @@ These DMVs work together to suggest new indexes that could improve query perform
 | --- | --- |
 | **`sys.dm_db_missing_index_details`** | `equality_columns`, `inequality_columns`, `included_columns`: These columns suggest the key and included columns for the missing index. |
 | **`sys.dm_db_missing_index_group_stats`** | `avg_user_impact`: An estimate of the percentage improvement the missing index could provide. |
-
-\<hr\>
 
 ### Resource and Wait-Related DMVs
 
