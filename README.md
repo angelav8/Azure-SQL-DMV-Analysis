@@ -1,4 +1,4 @@
-Why is my database slow? 
+### Why is my database slow? 
 
 A question every DBA is asked, this repo will hold scripts for basic queries designed to find bottlenecks in Azure SQL and Managed instance databases. 
 
