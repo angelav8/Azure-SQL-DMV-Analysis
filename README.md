@@ -9,13 +9,6 @@ Typically we look at the following
 - Active queries by user 
 - Blocked queries 
 
-There are some readily available queries such as: 
-
-- sp_whoisactive by Adam Machanic
-- Brent Ozars first responder kit 
-- Eric darling 
-
-
 Analyzing the performance and health of an Azure SQL database is crucial for maintaining optimal operation. Dynamic Management Views (DMVs) are indispensable tools for this, providing a window into the inner workings of the database engine. Below is a breakdown of the most useful DMV tables and their key columns, categorized by their primary function.
 
 ### Execution-Related DMVs
